@@ -25,15 +25,7 @@ android {
         versionName "1.0"
     }
 
-    signingConfigs {
-        release {
-            storeFile file("../key/quizkey.jks")
-            storePassword "Fabricio!@#"
-            keyAlias "quizkey"
-            keyPassword "Fabricio!@#"
-        }
-    }
-
+    
     buildTypes {
 
         debug {
