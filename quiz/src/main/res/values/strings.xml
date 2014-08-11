@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="result">result</string>
+    <string name="close_title">Close quiz</string>
+    <string name="close_msg">Are you sure you want to exit?</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+    <string name="no_more_questions">no more questions</string>
+    <string name="your_answer">Your Answer</string>
+
+    <plurals name="hour">
+        <item quantity="zero"> </item>
+        <item quantity="one">%02d hour</item>
+        <item quantity="other">%02d hours</item>
+    </plurals>
+
+    <plurals name="minute">
+        <item quantity="zero"> </item>
+        <item quantity="one">%02d minute</item>
+        <item quantity="other">%02d minutes</item>
+    </plurals>
+
+    <plurals name="question">
+        <item quantity="one">%02d question</item>
+        <item quantity="other">%02d questions</item>
+    </plurals>
+
+</resources>

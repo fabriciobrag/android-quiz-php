@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Settings"
+        android:key="pref_settings" >
+
+        <com.quiz.php.ui.NumberPickerDialogPreference
+            android:defaultValue="70"
+            android:key="pref_num_questions"
+            android:dialogMessage="Please select the number of questions:"
+            android:summary="70 questions"
+            android:max="500"
+            android:title="Total number of questions"
+            custom:min="0" />
+
+        <com.quiz.php.ui.TimePickerDialogPreference
+            android:key="pref_time"
+            android:title="Time Limit" />
+
+        <com.quiz.php.ui.TypeListPreference
+            android:key="pref_type"
+            android:title="Questions Types"
+            android:summary="All types"
+            android:dialogTitle="Select type of Questions"
+            android:entries="@array/entries_type_preference"
+            android:entryValues="@array/entries_type_preference_values"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

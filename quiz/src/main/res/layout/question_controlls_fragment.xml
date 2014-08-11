@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.ads.AdView android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-9215781678382116/8549398597"
+        ads:adSize="SMART_BANNER"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/question_prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="prev"/>
+
+
+
+        <Button
+            android:id="@+id/question_nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="next"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        style="@android:style/TextAppearance.Small"
+        android:text="00:00"
+        android:background="#EDEDED"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
