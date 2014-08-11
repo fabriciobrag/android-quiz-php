@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29e2fa9b-0036-41ec-90ed-2de145ec1fff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz/build.gradle" afterPath="$PROJECT_DIR$/quiz/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz/src/main/assets/crashlytics-build.properties" afterPath="$PROJECT_DIR$/quiz/src/main/assets/crashlytics-build.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="quiz_php.iws" />
@@ -77,11 +78,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19270833" vertical-offset="294" max-vertical-offset="870">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="870">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/musixmatch-music-player-lyrics-4.0.36-www.apk4fun.com/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38727272" vertical-offset="777" max-vertical-offset="3975">
+              <caret line="66" column="67" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/LGMusic/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3333335" vertical-offset="886" max-vertical-offset="4995">
+              <caret line="84" column="52" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -1638,8 +1659,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19270833" vertical-offset="294" max-vertical-offset="870">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/LGMusic/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="886" max-vertical-offset="4995">
+          <caret line="84" column="52" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/musixmatch-music-player-lyrics-4.0.36-www.apk4fun.com/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38727272" vertical-offset="777" max-vertical-offset="3975">
+          <caret line="66" column="67" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="67" />
           <folding />
         </state>
       </provider>
