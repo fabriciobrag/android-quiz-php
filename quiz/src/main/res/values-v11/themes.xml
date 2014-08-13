@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="styled" parent="@style/_styled" />
+
+    <style name="_styled" parent="Theme.AppCompat.Light">
+
+        <item name="android:editTextBackground">@drawable/styled_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#998892bf</item>
+        <item name="android:textSelectHandleLeft">@drawable/styled_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/styled_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/styled_text_select_handle_middle</item>
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/styled_btn_check_holo_light
+        </item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/styled_btn_radio_holo_light</item>
+
+        <item name="android:buttonStyle">@style/Buttonstyled</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonstyled</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerstyled</item>
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionMenuTextColor">@color/actionbar_text</item>
+
+    </style>
+
+</resources>

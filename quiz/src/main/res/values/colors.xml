@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_text">#ff000000</color>
+    <color name="styled_color">#8892bf</color>
+
+    <color name="input_answer_correct">#6A8759</color>
+    <color name="input_answer_wrong">#ffcc5b4e</color>
+    <color name="list_num_question_wrong">#ffda8a84</color>
+
+    <color name="bg_correct">#C3EBB9</color>
+
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#77000000</color>
+    <color name="body_text_3">#33000000</color>
+    <color name="body_text_disabled">#44000000</color>
+
+
+</resources>
