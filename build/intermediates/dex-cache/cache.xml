@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/fabricio/dev/quiz/quiz/build/intermediates/pre-dexed/debug/crashlytics-1.1.11-9f70441b2b3b68e394c585f515a15eaf2a8e24d6.jar"
-        jar="/Users/fabricio/.gradle/caches/modules-2/files-2.1/com.crashlytics.android/crashlytics/1.1.11/b8189e9eef2f07fae743e05d7fe7e69daebe98d1/crashlytics-1.1.11.jar"
+        jar="/Users/luiscoms/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1"/>
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9da37910f954ba8dee1ba4201798ba0060c34d14.jar" />
+    </item>
     <item
-        dex="/Users/fabricio/dev/quiz_php/quiz/build/intermediates/pre-dexed/debug/classes-b47d669c679192e588abeaf291a65905ee5612e4.jar"
-        jar="/Users/fabricio/dev/quiz_php/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jar="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
+        <dex dex="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/pre-dexed/debug/classes-290de794977e29fe8ab400628b5832e50a0931ea.jar" />
+    </item>
     <item
-        dex="/Users/fabricio/dev/quiz/quiz/build/intermediates/pre-dexed/debug/classes-6dd3724db0a3602054be96eb5b6840d555416904.jar"
-        jar="/Users/fabricio/dev/quiz/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jar="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/pre-dexed/debug/classes-ea9fe937a47495e3bd758f56a504dfff8aa24bf5.jar" />
+    </item>
     <item
-        dex="/Users/fabricio/dev/quiz/quiz/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/Users/luiscoms/.gradle/caches/modules-2/files-2.1/com.crashlytics.android/crashlytics/1.1.13/e821eafa1bf489a26bdb71f95078c26785b37a1/crashlytics-1.1.13.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
-        dex="/Users/fabricio/dev/quiz_php/quiz/build/intermediates/pre-dexed/debug/classes-0b2cbe2f9f86b5f2d83b7abe7bc6ce70fd815452.jar"
-        jar="/Users/fabricio/dev/quiz_php/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/Users/luiscoms/LCS/StudioProjects/android-quiz-php/quiz/build/intermediates/pre-dexed/debug/crashlytics-1.1.13-b47bda0a9e83720f534e0fae8a98c72dcc48f34c.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-quiz-php.iml" filepath="$PROJECT_DIR$/android-quiz-php.iml" />
       <module fileurl="file://$PROJECT_DIR$/quiz/quiz.iml" filepath="$PROJECT_DIR$/quiz/quiz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quiz_php.iml" filepath="$PROJECT_DIR$/quiz_php.iml" />
     </modules>
   </component>
 </project>
-

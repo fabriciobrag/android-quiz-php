@@ -7,12 +7,11 @@ buildscript {
         classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.+'
     }
 }
-apply plugin: 'android'
-apply plugin: 'crashlytics'
+apply plugin: 'com.android.application'
+apply plugin: 'crashlytics' // TODO update to fabric.io
 repositories {
     maven { url 'http://download.crashlytics.com/maven' }
 }
-
 
 android {
     compileSdkVersion 19
@@ -25,18 +24,17 @@ android {
         versionName "1.0"
     }
 
-
     buildTypes {
 
         debug {
-            runProguard false
+            minifyEnabled false
             debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
 
         release {
-            signingConfig signingConfigs.release
-            runProguard true
+//            signingConfig signingConfigs.release // TODO Add signing config
+            minifyEnabled true
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
@@ -44,8 +42,7 @@ android {
 }
 
 dependencies {
-
-    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:appcompat-v7:19.1.0'
     compile 'com.android.support:support-v4:19.1.0'
     compile 'com.google.android.gms:play-services:4.4.52'
     compile 'com.crashlytics.android:crashlytics:1.+'
